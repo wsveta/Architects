@@ -1,5 +1,6 @@
 .gallery-section {
-
+  padding: 0 135px;
+  margin: 0 auto;
 }
 .title {
   font-size: 64px;
@@ -11,11 +12,9 @@
   font-weight: 300;
 }
 .gallery {
-    margin: 60px auto;
+  margin: 60px auto;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
   width: 1170px;
-
 }
-
