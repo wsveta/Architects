@@ -1,0 +1,47 @@
+.contact-page {
+  display: flex;
+}
+.contact-page-title {
+}
+.contact-page-title span {
+}
+.contact-page-contacts {
+}
+.contact-page-contact {
+  padding-bottom: 30px;
+}
+.contact-page-subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.contact-page-paragraph {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 140.8%;
+}
+.contact-page-button {
+  border: transparent;
+  outline: transparent;
+  background: var(--main-font-color, #333);
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+  width: 222px;
+
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.contact-page-button:hover,
+.contact-page-button:focus {
+    color: var(--main-font-color, #333);
+    background-color: #fff;
+    border: 1px solid var(--main-font-color, #333);
+}
+.iframe {
+  border: 1px solid #000;
+  margin-left: auto;
+  margin-top: 63px;
+}

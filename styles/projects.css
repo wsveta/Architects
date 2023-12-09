@@ -1,0 +1,46 @@
+.projects {
+  margin-top: 60px;
+}
+.project {
+  display: flex;
+  margin-bottom: 60px;
+  background-color: var(--about-background-color);
+}
+.title {
+  text-transform: capitalize;
+  margin-top: 63px;
+}
+.info {
+  padding: 30px 70px 30px 30px;
+}
+.subtitle {
+  color: var(--accent-color);
+  font-size: 40px;
+  font-weight: 300;
+}
+.paragraph {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  padding-top: 73px;
+  padding-bottom: 64px;
+}
+
+.project-button {
+  position: relative;
+  border: transparent;
+  outline: transparent;
+  background-color: #fff;
+  padding: 30px 0;
+  width: 222px;
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.project-button:hover,
+.project-button:focus {
+  background-color: var(--main-font-color);
+  color: #fff;
+  .black-arrow {
+    fill: #fff;
+  }
+}

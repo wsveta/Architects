@@ -1,0 +1,316 @@
+@import "./normalize.css";
+@import "./common.css";
+@import "./gallery.css";
+@import "./projects.css";
+@import "./contact.css";
+
+.hero-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-title {
+  text-transform: capitalize;
+  width: 278px;
+  color: var(--main-font-color, #333);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 100% */
+}
+.hero-title span {
+  color: var(--accent-color, #bdbdbd);
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.hero-image {
+  position: relative;
+
+}
+.hero-button {
+  position: absolute;
+  text-transform: uppercase;
+  width: 222px;
+  height: 71px;
+  flex-shrink: 0;
+  background: #fff;
+  border: 1px solid #fff;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2.4px;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.more-arrow {
+padding-left: 18px;  
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+  .more-arrow {
+    fill: #fff;
+  } 
+}
+.about-section {
+  padding-left: 100px;
+  height: 435px;
+  display: flex;
+  gap: 30px;
+  background: var(--about-background-color);
+}
+.about-image {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.about-images {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.about-info {
+  padding: 30px 70px 30px 0;
+}
+.about-title {
+  text-transform: capitalize;
+  color: var(--accent-color, #bdbdbd);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 64px; /* 100% */
+}
+.about-paragraph {
+  width: 400px;
+  height: 200px;
+  padding: 20px 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px; /* 156.25% */
+}
+.about-button {
+  position: relative;
+  background-color: #fff;
+  outline: transparent;
+  border: transparent;
+  padding: 30px 25px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  width: 222px;
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.about-button:hover,
+.about-button:focus {
+  background-color: var(--main-font-color);
+  color: #fff;
+  .about-arrow {
+    fill: #fff;
+  }
+}
+.about-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: #333;
+  padding-left: 13px;
+}
+.mission-section {
+}
+.mission-title {
+  margin-bottom: 60px;
+  text-transform: capitalize;
+  color: var(--accent-color, #bdbdbd);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 64px; /* 100% */
+}
+.missions {
+  display: flex;
+  gap: 187px;
+}
+.mission {
+  display: flex;
+  gap: 30px;
+}
+
+.mission span {
+  color: #f2f2f2;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.mission-paragraph {
+  font-size: 22px;
+  font-style: normal;
+  line-height: 36px; /* 163.636% */
+}
+.projects-section {
+  margin: 0 auto;
+  width: 1170px;
+  text-align: right;
+}
+.project-title {
+  margin-bottom: 60px;
+  text-transform: capitalize;
+  text-align: left;
+  color: var(--accent-color, #bdbdbd);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 64px; /* 100% */
+}
+.projects {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.project {
+}
+.projects-button {
+  position: relative;
+  width: 222px;
+  outline: transparent;
+  border: transparent;
+  background-color: var(--main-font-color);
+
+  color: #fff;
+  font-size: 12px;
+  padding: 30px 40px;
+  letter-spacing: 2.4px;
+
+  text-transform: uppercase;
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.projects-button:hover,
+.projects-button:focus {
+  background-color: #fff;
+  color: var(--main-font-color);
+  border: 1px solid var(--main-font-color);
+  .project-arrow {
+    fill: var(--main-font-color);
+  }
+}
+.project-arrow {
+  fill: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 10px;
+}
+.contact-section {
+  display: flex;
+  gap: 30px;
+  margin-top: 22px;
+  justify-content: center;
+}
+.contact-title {
+  margin-bottom: 60px;
+  text-transform: capitalize;
+  color: var(--accent-color, #bdbdbd);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 64px; /* 100% */
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 391px;
+}
+form input,
+form textarea {
+  resize: none;
+  border: transparent;
+  outline: transparent;
+  background-color: var(--form-background-color);
+
+  padding: 15px 20px;
+}
+form textarea {
+  height: 102px;
+}
+.required {
+}
+.contact-button {
+  position: relative;
+  width: 222px;
+  outline: transparent;
+  border: transparent;
+  background-color: var(--main-font-color);
+  margin-top: 77px;
+
+  color: #fff;
+  font-size: 12px;
+  padding: 30px 40px;
+  letter-spacing: 2.4px;
+
+  text-transform: uppercase;
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.contact-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: #fff;
+  padding-left: 13px;
+}
+.contact-button:hover,
+.contact-button:focus {
+  background-color: #fff;
+  color: var(--main-font-color);
+  border: 1px solid var(--main-font-color);
+  .contact-arrow {
+    fill: var(--main-font-color);
+  }
+}
+.contact-image {
+}
+.swiper {
+  width: 770px;
+  height: 629px;
+}
+
+#custom-pagination-container {
+  font-size: 24px;
+  color: var(--accent-color);
+  line-height: 24px;
+  letter-spacing: 5px;
+  margin-left: 10px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: transparent;
+}
+
+.slider-btn {
+  width: 53px;
+  height: 53px;
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+  margin-right: 23px;
+  margin-top: 90px;
+  margin-bottom: 94px;
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.slider-btn:active {
+  background-color: #f9f9f9;
+}
+.prev-arrow {
+  transform: rotate(180deg);
+}

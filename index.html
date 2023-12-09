@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <style>
+      .nav:first-child {
+        padding: 4px;
+        border-bottom: 1px solid var(--main-font-color);
+        border-top: 1px solid var(--main-font-color);
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-container">
+        <a href="./index.html" class="logo">
+          <svg width="70" height="43">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <ul class="navs">
+          <li class="nav"><a href="./index.html">Main</a></li>
+          <li class="nav"><a href="./gallery.html">Gallery</a></li>
+          <li class="nav"><a href="./projects.html">Projects</a></li>
+          <li class="nav">
+            <a href="./certifications.html">Ceertifications</a>
+          </li>
+          <li class="nav"><a href="./contacts.html">Contacts</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!-- Hero section -->
+      <div class="container">
+        <section class="hero-block">
+          <div>
+            <h1 class="hero-title"><span>Project</span> Lorum</h1>
+              <button id="custom-button-prev" type="button" class="slider-btn">
+                <svg width="24" height="24" class="prev-arrow">
+                  <use href="./images/icons.svg#arrow"></use>
+                </svg>
+              </button>
+              <button id="custom-button-next" type="button" class="slider-btn">
+                <svg width="24" height="24" class="next-arrow">
+                  <use href="./images/icons.svg#arrow"></use>
+                </svg>
+              </button>
+            <div id="custom-pagination-container"></div>
+
+          </div>
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  width="770"
+                  height="829"
+                  src="./images/main/hero-image.png"
+                  srcset="
+                    ./images/main/hero-image.png 1x,
+                    ./images/main/hero-image@2.png 2x
+                  "
+                  alt=""
+                  class="hero-image"
+                />
+                <a href="" class="hero-button">View project
+                  <svg width="24" height="24" class="more-arrow">
+                    <use href="./images/icons.svg#arrow"></use>
+                  </svg>
+                </a>
+              </div>
+              
+              <div class="swiper-slide">
+                <img
+                  width="770"
+                  height="829"
+                  src="./images/main/image.jpg"
+                  alt=""
+                  class="hero-image"
+                />
+                <a href="" class="hero-button">View project
+                  <svg width="24" height="24" class="more-arrow">
+                    <use href="./images/icons.svg#arrow"></use>
+                  </svg>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  width="770"
+                  height="829"
+                  src="./images/main/GettyImage.jpg"
+                  alt=""
+                  class="hero-image"
+                />
+                <a href="" class="hero-button">View project
+                  <svg width="24" height="24" class="more-arrow">
+                    <use href="./images/icons.svg#arrow"></use>
+                  </svg>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  width="770"
+                  height="829"
+                  src="./images/main/Dubai_Marina_Skyline.jpg"
+                  alt=""
+                  class="hero-image"
+                />
+                <a href="" class="hero-button">View project
+                  <svg width="24" height="24" class="more-arrow">
+                    <use href="./images/icons.svg#arrow"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <!-- If we need navigation buttons -->
+          </div>
+        </section>
+      </div>
+      <!-- About section -->
+      <div class="container">
+        <section class="about-section">
+          <div class="about-images">
+            <img
+              width="270"
+              height="265"
+              src="./images/main/about-building.png"
+              srcset="
+                ./images/main/about-building.png   1x,
+                ./images/main/about-building@2.png 2x
+              "
+              alt=""
+            />
+            <img
+              width="270"
+              height="140"
+              src="./images/main/about-black-building"
+              srcset="
+                ./images/main/about-black-building.png   1x,
+                ./images/main/about-black-building@2.png 2x
+              "
+              alt=""
+            />
+          </div>
+          <img
+            class="about-image"
+            width="270"
+            height=""
+            src="./images/main/about-building-triangle.png"
+            srcset="
+              ./images/main/about-building-triangle.png   1x,
+              ./images/main/about-building-triangle@2.png 2x
+            "
+            alt=""
+          />
+          <div class="about-info">
+            <h2 class="about-title">About</h2>
+            <p class="about-paragraph">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+            <button class="about-button" type="button">
+              Read More
+              <svg width="24" height="24" class="about-arrow">
+                <use href="./images/icons.svg#arrow"></use>
+              </svg>
+            </button>
+          </div>
+        </section>
+      </div>
+      <!-- Missions section -->
+      <div class="container">
+        <section class="mission-section">
+          <h2 class="mission-title">Main Focus/Mission Statement</h2>
+          <ul class="missions">
+            <li class="mission">
+              <span>1</span>
+              <p class="mission-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                efficitur, lectus et facilisis placerat.
+              </p>
+            </li>
+            <li class="mission">
+              <span>2</span>
+              <p class="mission-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                efficitur, lectus et facilisis placerat, magna mauris porttitor
+                tortor, a auctor est felis ut nisl.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <!-- Projects -->
+      <div class="container">
+        <section class="projects-section">
+          <h2 class="project-title">Our projects</h2>
+          <ul class="projects">
+            <li class="project">
+              <img
+                width="570"
+                height="255"
+                src="./images/main/shellfish.png"
+                srcset="
+                  ./images/main/shellfish.png   1x,
+                  ./images/main/shellfish@2.png 2x
+                "
+                alt=""
+              />
+            </li>
+            <li class="project">
+              <img
+                width="570"
+                height="255"
+                src="./images/main/shell.png"
+                srcset="
+                  ./images/main/shell.png   1x,
+                  ./images/main/shell@2.png 2x
+                "
+                alt=""
+              />
+            </li>
+            <li class="project">
+              <img
+                width="270"
+                height="255"
+                src="./images/main/pool.png"
+                srcset="./images/main/pool.png 1x, ./images/main/pool@2.png 2x"
+                alt=""
+              />
+            </li>
+            <li class="project">
+              <img
+                width="470"
+                height="255"
+                src="./images/main/zk.png"
+                srcset="./images/main/zk.png 1x, ./images/main/zk@2.png 2x"
+                alt=""
+              />
+            </li>
+            <li class="project">
+              <img
+                width="370"
+                height="255"
+                src="./images/main/triangles.png"
+                srcset="
+                  ./images/main/triangles.png   1x,
+                  ./images/main/triangles@2.png 2x
+                "
+                alt=""
+              />
+            </li>
+          </ul>
+          <button class="projects-button" type="button">
+            All projects
+            <svg width="24" height="24" class="project-arrow">
+              <use href="./images/icons.svg#arrow"></use>
+            </svg>
+          </button>
+        </section>
+      </div>
+      <!-- Contacts -->
+      <div class="container">
+        <h2 class="contact-title">Contact us</h2>
+        <section class="contact-section">
+          <form>
+            <input type="text" placeholder="Name" class="required" />
+            <input
+              type="tel"
+              placeholder="Phone Number"
+              class="required"
+              required
+            />
+            <input
+              type="email"
+              placeholder="E-mail"
+              class="required"
+              required
+            />
+            <input type="text" placeholder="Interested in" />
+            <textarea
+              required
+              class="required"
+              name=""
+              id=""
+              placeholder="Message"
+            ></textarea>
+            <button class="contact-button" type="button">
+              Send email
+              <svg width="24" height="24" class="contact-arrow">
+                <use href="./images/icons.svg#arrow"></use>
+              </svg>
+            </button>
+          </form>
+          <img
+            class="contact-image"
+            width="749"
+            height="369"
+            src="./images/main/man-with-phone.png"
+            srcset="
+              ./images/main/man-with-phone.png   1x,
+              ./images/main/man-with-phone@2.png 2x
+            "
+            alt=""
+          />
+        </section>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-section">
+        <ul class="fsections">
+          <li class="fsection">
+            <a href="./index.html" class="footer-logo">
+              <svg width="145" height="94">
+                <use href="./images/icons.svg#icon-logo"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="fsection">
+            <h2 class="footer-title">Information</h2>
+            <ul class="footer-navs">
+              <li class="footer-nav"><a href="./index.html">Main</a></li>
+              <li class="footer-nav"><a href="./gallery.html">Gallery</a></li>
+              <li class="footer-nav"><a href="projects.html">Projects</a></li>
+              <li class="footer-nav">
+                <a href="./certifications.html">Certifications</a>
+              </li>
+              <li class="footer-nav"><a href="./contacts.html">Contacts</a></li>
+            </ul>
+          </li>
+          <li class="fsection">
+            <h2 class="footer-title">Contacts</h2>
+            <ul class="footer-contacts">
+              <li class="footer-contact">
+                <svg width="11" height="16">
+                  <use href="./images/icons.svg#on-map"></use>
+                </svg>
+                <a href="https://maps.app.goo.gl/8BwE4sVyWpJkTRSX6"
+                  >1234 Sample Street Austin Texas 78704</a
+                >
+              </li>
+              <li class="footer-contact">
+                <svg width="16" height="16">
+                  <use href="./images/icons.svg#phone"></use>
+                </svg>
+                <a href="tel:5123332222">5123332222</a>
+              </li>
+              <li class="footer-contact">
+                <svg width="16" height="11">
+                  <use href="./images/icons.svg#mail"></use>
+                </svg>
+                <a href="mailto:sampleemail@gmail.com">sampleemail@gmail.com</a>
+              </li>
+            </ul>
+          </li>
+          <li class="fsection">
+            <h2 class="footer-title">Social media</h2>
+            <ul class="social-medias">
+              <li class="social-media">
+                <a href="https://www.facebook.com/">
+                  <svg width="10" height="19">
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media">
+                <a href="https://twitter.com/">
+                  <svg width="22" height="17">
+                    <use href="./images/icons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media">
+                <a href="https://www.linkedin.com/">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#linked-in"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media">
+                <a href="https://www.pinterest.com/">
+                  <svg width="14" height="19">
+                    <use href="./images/icons.svg#pinterest"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="rights">
+          <p class="right-paragraph">© 2021 All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

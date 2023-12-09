@@ -1,0 +1,21 @@
+.gallery-section {
+
+}
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+}
+.title span {
+  color: var(--accent-color, #bdbdbd);
+  font-weight: 300;
+}
+.gallery {
+    margin: 60px auto;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 1170px;
+
+}
+
