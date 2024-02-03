@@ -138,9 +138,11 @@ padding-left: 18px;
 }
 .missions {
   display: flex;
-  gap: 187px;
+  gap: auto;
+  justify-content: space-between;
 }
 .mission {
+  align-items: center;
   display: flex;
   gap: 30px;
 }
@@ -156,6 +158,7 @@ padding-left: 18px;
   font-size: 22px;
   font-style: normal;
   line-height: 36px; /* 163.636% */
+  width: 400px;
 }
 .projects-section {
   margin: 0 auto;

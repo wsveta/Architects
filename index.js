@@ -18,7 +18,6 @@ const swiper = new Swiper(".swiper", {
       return ("0" + number).slice(-2); // Те ж саме для загальної кількості слайдів
     },
   },
-
   // Navigation arrows
   navigation: {
     nextEl: "#custom-button-next",
@@ -28,4 +27,4 @@ const swiper = new Swiper(".swiper", {
   keyboard: {
     enabled: true,
   },
-});
+})
